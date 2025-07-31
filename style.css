@@ -1,0 +1,105 @@
+/* Estilo Geral */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0d011a;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 20px 20px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  header img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #a94bd1;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  p {
+    color: #d9a0ff;
+    font-size: 16px;
+  }
+  
+  .links {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .links a {
+    display: block;
+    background: #290030;
+    color: #fff;
+    padding: 15px;
+    margin: 12px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #a94bd1;
+    transition: 0.3s ease;
+  }
+  
+  .links a:hover {
+    background: #520060;
+    border-color: #ff6ec7;
+  }
+  
+  .links i {
+    margin-right: 10px;
+  }
+  
+  .pix-section {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .pix-button {
+    display: inline-block;
+    background: #a94bd1;
+    color: white;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+    border: none;
+  }
+  
+  .pix-button:hover {
+    background: #ff6ec7;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+    z-index: 2;
+  }
+  
+  canvas#fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
